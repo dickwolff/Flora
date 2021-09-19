@@ -1,0 +1,31 @@
+/** 
+    Flora.
+
+    Startup component CSS.
+*/
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 13em;
+
+    h1 {
+        font-size: 6em;
+    }
+}
+
+.setup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 0;
+
+    .mat-button-base {
+        &:first-of-type {
+            margin-right: 1em;
+        }
+    }
+}
